@@ -1,0 +1,36 @@
+.content{
+    margin-left:2rem;
+}
+.content1{
+    margin-top:2rem;
+}
+.content2{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.inner-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15rem;
+    width: 15rem;
+    background-color:rgb(229, 233, 233);
+    flex-wrap:wrap;
+}
+.outer-box{
+    display: flex;
+    justify-content: center;
+    box-shadow: 5em;
+    align-items: center;
+    margin-top: 5rem;
+}
+.middle-box{
+    box-shadow: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(229, 233, 233);
+    padding-top: 2rem;
+    flex-wrap:wrap;
+}

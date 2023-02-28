@@ -1,0 +1,25 @@
+.inner-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10rem;
+    width: 15rem;
+    background-color:rgb(229, 233, 233);
+    flex-wrap:wrap;
+}
+.outer-box{
+    display: flex;
+    justify-content: center;
+    box-shadow: 5em;
+    align-items: center;
+    margin-top: 5rem;
+}
+.middle-box{
+    box-shadow: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(229, 233, 233);
+    padding-top: 2rem;
+    flex-wrap:wrap;
+}
